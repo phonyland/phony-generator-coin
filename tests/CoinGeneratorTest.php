@@ -1,5 +1,5 @@
 <?php
 
-test('example->text')
+test('coin->flip')
     ->expect(🙃()->coin->flip())
     ->toBeAWord();
