@@ -13,7 +13,8 @@ class CoinGenerator extends Generator
      */
     public function flip(): string
     {
-        return random_int(0, 1) === 0
+        // @phpstan-ignore-next-line
+        return $this->phony->number->boolean()
             ? 'Heads'
             : 'Tails';
     }
