@@ -8,9 +8,6 @@ use Phonyland\GeneratorManager\Generator;
 
 class CoinGenerator extends Generator
 {
-    /**
-     * @throws \Exception
-     */
     public function flip(): string
     {
         // @phpstan-ignore-next-line
