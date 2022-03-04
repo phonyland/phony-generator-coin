@@ -51,9 +51,15 @@
     },
     "extra": {
         "phonyland": {
-            "generators": [
-                "Phonyland\\CoinGenerator\\CoinGenerator"
-            ]
+            "generator": {
+                "alias": "coin",
+                "class": "Phonyland\\CoinGenerator\\CoinGenerator",
+                "data": {
+                    "de": "phonyland/phony-generator-coin-de",
+                    "en": "phonyland/phony-generator-coin-en",
+                    "tr": "phonyland/phony-generator-coin-tr"
+                }
+            }
         }
     },
     "scripts": {
