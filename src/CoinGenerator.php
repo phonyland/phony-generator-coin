@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Phonyland\CoinGenerator;
 
-use Phonyland\GeneratorManager\Generator;
+use Phonyland\Framework\Generator;
 
 class CoinGenerator extends Generator
 {
