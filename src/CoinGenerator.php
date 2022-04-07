@@ -10,9 +10,6 @@ class CoinGenerator extends Generator
 {
     public function flip(): string
     {
-        // @phpstan-ignore-next-line
-        return $this->phony->number->boolean()
-            ? 'Heads'
-            : 'Tails';
+        return $this->fetch('coin.flip');
     }
 }
