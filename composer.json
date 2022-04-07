@@ -25,7 +25,7 @@
     "require-dev": {
         "phonyland/dev-tools": "dev-master",
         "phonyland/framework": "dev-master",
-        "phonyland/phony-generator-coin-en": "dev-master"
+        "phonyland-data/phony-generator-coin-en": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
@@ -56,9 +56,9 @@
                 "alias": "coin",
                 "class": "Phonyland\\CoinGenerator\\CoinGenerator",
                 "data": {
-                    "de": "phonyland/phony-generator-coin-de",
-                    "en": "phonyland/phony-generator-coin-en",
-                    "tr": "phonyland/phony-generator-coin-tr"
+                    "de": "phonyland-data/phony-generator-coin-de",
+                    "en": "phonyland-data/phony-generator-coin-en",
+                    "tr": "phonyland-data/phony-generator-coin-tr"
                 }
             }
         }
