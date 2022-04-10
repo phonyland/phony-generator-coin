@@ -23,9 +23,9 @@
         "phonyland/phony-generator-number": "dev-master"
     },
     "require-dev": {
+        "phonyland-data/phony-generator-coin-en": "dev-master",
         "phonyland/dev-tools": "dev-master",
-        "phonyland/framework": "dev-master",
-        "phonyland-data/phony-generator-coin-en": "dev-master"
+        "phonyland/framework": "dev-master"
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
